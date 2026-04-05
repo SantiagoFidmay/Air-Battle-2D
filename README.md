@@ -28,6 +28,23 @@ A finalidade do game é proporcionar uma experiência de combate aéreo estilo *
 O tema escolhido é a guerra aérea clássica combinada com elementos sci-fi na batalha final. O objetivo do jogador é controlar um caça, destruir aviões inimigos para acumular pontos e sobreviver. Ao atingir uma pontuação elevada (350 pontos em 1P ou 700 pontos em 2P), o jogador entra na fase final para enfrentar a lendária Nave Mãe Alienígena (Boss). O jogo é vencido ao derrotar o Boss.
 
 ---
+## 3. Especificações de Requisitos (Modelagem)
+
+### A. Requisitos Funcionais (RF)
+* **RF01 - Movimentação:** O sistema permite o controle do jogador nos eixos vertical e horizontal para desviar de obstáculos.
+* **RF02 - Sistema de Vidas:** O jogador inicia com 5 vidas. Ao colidir com um inimigo, perde-se uma vida.
+* **RF03 - Pontuação:** O jogo possui um sistema de pontuação que permite a geração de um placar conforme inimigos são abatidos.
+* **RF04 - Coletáveis:** Existem itens na pista (tiro duplo, velocidade, escudo) que somam pontos ou conferem vantagens.
+* **RF05 - Interface (Telas):** O jogo contém Menu Inicial, Tela de Jogo, Tela "Sobre" e Telas de Vitória/Derrota.
+* **RF06 - Tela Sobre:** Exibe os dados de contato do desenvolvedor e o nome do Product Owner (Professor Orientador).
+
+### B. Regras de Negócio (RN)
+* **RN01 - Dificuldade Progressiva:** A cada fase, a velocidade ou a quantidade de inimigos em tela aumenta obrigatoriamente.
+* **RN02 - Troca de Cenário:** O jogo apresenta 3 fundos (backgrounds) diferentes para indicar a progressão entre as 3 fases.
+* **RN03 - Vitória:** O jogador vence ao derrotar o Boss final (3ª fase) com pelo menos 1 vida restante.
+* **RN04 - Manual de Instruções:** O jogo possui uma seção explicando teclas de comando, pontuação e função de cada item.
+
+---
 
 ## Instruções de Jogabilidade
 
